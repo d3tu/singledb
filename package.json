@@ -1,0 +1,26 @@
+{
+  "name": "singledb",
+  "version": "0.0.1",
+  "main": "index.js",
+  "types": "index.ts",
+  "author": "d3tu",
+  "license": "MIT",
+  "description": "json-structured database",
+  "homepage": "https://github.com/d3tu/singledb#readme",
+  "keywords": ["database", "json"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3tu/singledb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/d3tu/singledb/issues"
+  },
+  "scripts": {
+    "test": "ts-node test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
